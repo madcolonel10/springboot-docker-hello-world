@@ -6,7 +6,8 @@ metadata:
    run: rest-service
 spec:
   ports:
-  - port: 8000
+  - port: 9000
+    targetPort: 8000
     protocol: TCP
   selector:
     run: rest-service
