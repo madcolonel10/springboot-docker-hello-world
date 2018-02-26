@@ -19,7 +19,7 @@ spec:
       labels:
         run: rest-service
     spec:
-      container:
+      containers:
         - image: madcolonel10/rest-service:latest
           imagePullPolicy: Always
       dnsPolicy: ClusterFirst
