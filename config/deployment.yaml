@@ -21,6 +21,7 @@ spec:
     spec:
       containers:
         - image: madcolonel10/rest-service:latest
+          name: rest-service
           imagePullPolicy: Always
       dnsPolicy: ClusterFirst
       restartPolicy: Always
