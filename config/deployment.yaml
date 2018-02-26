@@ -23,5 +23,9 @@ spec:
         - image: madcolonel10/rest-service:latest
           name: rest-service
           imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
+              name: http
+              protocol: TCP
       dnsPolicy: ClusterFirst
       restartPolicy: Always
