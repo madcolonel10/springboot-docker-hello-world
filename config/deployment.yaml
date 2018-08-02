@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     run: rest-service
-  name: rest-service
+  name: rest-service-new
 spec:
   replicas: 2
   selector:
