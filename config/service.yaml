@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: rest-service
   labels:
-   run: rest-service
+   run: rest-service-new
 spec:
   type: LoadBalancer
   ports:
